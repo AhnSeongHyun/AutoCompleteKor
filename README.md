@@ -1,14 +1,14 @@
 # AutoCompleteKor
 <p>
 <li> AutoComplete for korean keyword based on Objective-C </li>
-<li> 한국어 자음과 모음 풀어쓰기 기반의 자동완성.
+<li> 한국어 자음과 모음 풀어쓰기 기반의 자동완성.</li>
 </p>
 <br/>
 
 
 ## class<br/>
 <p>
-<li> AutoCompleteData class </li><br/>
+<li> <b>AutoCompleteData</b> class </li><br/>
 - This class have two variables, <b> word and wordIndex </b> <br/>
 - word is original korean word, wordIndex is <b>a series of consonants and vowels.</b><br/>
 - ex) word : 안녕하세요. wordIndex : ㅇㅏㄴㄴㅕㅇㅎㅏㅅㅔㅇㅛ.
@@ -17,7 +17,7 @@
 <br/>
 
 <p>
-<li> AutoCompleteMng Class </li> <br/>
+<li><b>AutoCompleteMng</b> Class </li> <br/>
 - This class has one variable, <b>acdArr</b> is NSMutableArray for <b><u>storing AutoCompleteData objects.</b></u>    </br>
 -  When this class init, TestData insert to AutoCompleteData Object and then that store into acdArr. <br/>
 - When TestData insert, make wordIndex using [NSStrUtils getJasoLetter].<br/>

@@ -6,7 +6,11 @@
 </p>
 <br/>
 
+![ScreenShot](http://farm8.static.flickr.com/7451/8731633560_fe86e97d2a.jpg)
 
+
+
+<br/>
 ## class<br/>
 <p>
 <li> <b>AutoCompleteData</b> class </li><br/>
@@ -19,7 +23,7 @@
 
 <p>
 <li><b>AutoCompleteMng</b> Class </li> <br/>
-- This class has one variable, <b>acdArr</b> is NSMutableArray for <b><u>storing AutoCompleteData objects.</b></u>    </br>
+- This class has one variable, <b>acdArr</b> is NSMutableArray for <b><u>storing AutoCompleteData objects.</u></b>    </br>
 -  When this class init, TestData insert to AutoCompleteData Object and then that store into acdArr. <br/>
 - When TestData insert, make wordIndex using [NSStrUtils getJasoLetter].<br/>
 - After store, sort acdArr by ASC. <br/>

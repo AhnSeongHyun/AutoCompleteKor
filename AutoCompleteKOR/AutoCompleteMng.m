@@ -15,9 +15,9 @@
 
 -(id)init
 {
-    if (self = [super init] )
+    self = [super init];
+    if (self)
     {
-        
         acdArr = [[NSMutableArray alloc]init];
         TestData *test = [[TestData alloc]init];
         int count = [test getCount];
@@ -27,8 +27,7 @@
             [acdArr addObject:[[AutoCompleteData alloc] initWithWord:[test dataAtIndex:i]]];
         }
         
-        //ASC Sorting
-        
+        //Sorting by ASC
         NSSortDescriptor *qntdiffSorter = [[NSSortDescriptor alloc] initWithKey:@"wordIndex" ascending:YES];
         [acdArr sortUsingDescriptors: [ NSArray arrayWithObject: qntdiffSorter ]];
         
@@ -38,9 +37,7 @@
 
 -(NSMutableArray*)search:(NSString*)keyword
 {
-    
     NSMutableArray *searchedStrArr = [[NSMutableArray alloc]init];
-    
     
     NSString * keywordLetter = [NSStrUtils getJasoLetter:keyword];
     int keywordLen = keywordLetter.length;

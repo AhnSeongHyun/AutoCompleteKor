@@ -107,14 +107,14 @@
 			isa = PBXGroup;
 			children = (
 				7E0C8935173F8DFF00579E10 /* AutoComplete */,
+				7EFC300E173DB6C200F6892D /* ViewController */,
 				7EFC3012173DBCBD00F6892D /* NSStrUtils.h */,
 				7EFC3013173DBCBD00F6892D /* NSStrUtils.m */,
-				7EFC300E173DB6C200F6892D /* ViewController */,
 				7EFC2FFA173DB60500F6892D /* AppDelegate.h */,
 				7EFC2FFB173DB60500F6892D /* AppDelegate.m */,
-				7EFC2FF2173DB60500F6892D /* Supporting Files */,
 				7EFC3015173DBDDB00F6892D /* TestData.h */,
 				7EFC3016173DBDDB00F6892D /* TestData.m */,
+				7EFC2FF2173DB60500F6892D /* Supporting Files */,
 			);
 			path = AutoCompleteKOR;
 			sourceTree = "<group>";

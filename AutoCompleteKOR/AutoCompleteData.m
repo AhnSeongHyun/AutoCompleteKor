@@ -12,7 +12,8 @@
 @implementation AutoCompleteData
 -(id)init
 {
-    if (self = [super init] )
+    self = [super init];
+    if (self)
     {
           
     }
@@ -29,9 +30,6 @@
     
     return self;
 }
-
-
-
 
 -(void)setWord:(NSString*)_word
 {

@@ -13,7 +13,7 @@
 @interface ViewController : UIViewController
 <UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate>
 {
-    NSMutableArray *acWordArr;
+    NSMutableArray  *acWordArr;
     AutoCompleteMng *acMng;
     
 }

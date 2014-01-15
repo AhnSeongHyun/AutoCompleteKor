@@ -53,10 +53,7 @@ static  unichar JONG_SUNG[] = { 0x0000, 0x3131 , 0x3132, 0x3133, 0x3134, 0x3135 
             [jasoLetter appendString:[NSString stringWithFormat: @"%C", uniTarget]];
         }
     }
-    
-    
     return [NSString stringWithString:jasoLetter];
-    
 }
 
 +(BOOL)isKorean:(unichar) target
